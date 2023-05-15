@@ -1,0 +1,326 @@
+
+
+body {
+  /* Styles for the body element */
+  margin: 0;
+  padding: 0;
+  background: url("bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+#search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+  background-color: #FDF4E8;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#search-input {
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px 0 0 30px;
+  outline: none;
+  background-color: #FDF4E8;
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  background-color: #FF578E;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#search-button:hover {
+  background-color: #FF2465;
+}
+
+
+
+/* Additional anime-inspired styles */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #555;
+}
+
+#search-container {
+  animation: bounce 1s ease-in-out infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+
+/* ... previous code ... */
+
+#time-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#time {
+  font-size: 60px;
+  font-family: 'Mea Culpa', cursive;
+  color: #FF578E;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+}
+
+
+
+
+/* 
+
+
+
+.hidden {
+  display: none;
+}
+
+
+/* ... previous code ... */
+
+#search-items {
+  /* New styles for search items */
+  display: flex;
+  justify-content: center;
+}
+
+#search-items a {
+  /* Styles for each search item */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FF578E;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: all 0.3s ease; /* Transition for smooth hover effect */
+}
+
+#search-items a i {
+  /* Styles for the icon inside each search item */
+  font-size: 24px;
+}
+
+#search-items a:hover {
+  /* Hover styles for search items */
+  transform: scale(1.1); /* Increase size on hover */
+  background-color: #888; /* Change background color on hover */
+}
+
+
+
+/* ... previous code ... */
+
+#tab-buttons {
+  /* Styles for the tab buttons container */
+  margin-top: 20px;
+}
+
+.tab-button {
+  /* Styles for the tab buttons */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FADBD9;
+  color: #FF4081;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab-button:hover {
+  /* Hover styles for the tab buttons */
+  background-color: #FF4081;
+  color: #fff;
+}
+
+.tab-button.active {
+  /* Styles for the active tab button */
+  background-color: #FF4081;
+  color: #fff;
+}
+
+.tab-content {
+  /* Styles for the tab content sections */
+  display: none;
+  padding: 20px;
+  background-color: #FADBD9;
+  border-radius: 10px;
+}
+
+.tab-content.active {
+  /* Styles for the active tab content section */
+  display: block;
+}
+
+/* ... remaining code ... */
+
+
+
+
+
+.breadcrumb-container1 {
+  background-color:#FF578E;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.breadcrumb1 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.breadcrumb1 li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.breadcrumb1 li:last-child {
+  margin-right: 0;
+}
+
+.breadcrumb1 li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.breadcrumb1 li.active {
+  color: #ffffff;
+}
+
+
+
+
+
+
+.dev-post-card {
+  /* Updated styles for each dev.to post card */
+  background-color: #FADBD9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dev-post-card h3 {
+  /* Updated styles for the dev.to post title */
+  margin-top: 0;
+  font-size: 24px;
+  color: #FF4081;
+}
+
+.dev-post-card p {
+  /* Updated styles for the dev.to post description */
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+.dev-post-card a {
+  /* Updated styles for the dev.to post link */
+  display: inline-block;
+  color: #FF4081;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.dev-post-card a:hover {
+  /* Hover styles for the dev.to post link */
+  color: #FF79B0;
+}
+
+
+/* Existing CSS styles */
+
+#loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.loading-spinner {
+  border: 4px solid #ffffff;
+  border-top: 4px solid #ff80ab;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#loading-overlay.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+/* Your existing CSS styles */
+
+footer {
+  background-color: pink;
+  padding: 20px 0;
+}
+
+.footer-content {
+  color: white;
+  text-align: center;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
