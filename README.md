@@ -1,2 +1,2 @@
-# Chromehomepage
-Custom Homepage for Google Chrome 
+# chrome homepage
+## Custom Homepage for Google Chrome 
