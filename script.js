@@ -5,10 +5,6 @@ document.getElementById('search-form').addEventListener('submit', function(event
   window.location.href = url;
 });
 
-window.addEventListener('load', function() {
-  var overlay = document.getElementById('loading-overlay');
-  overlay.classList.add('hide');
-});
 
 
 
